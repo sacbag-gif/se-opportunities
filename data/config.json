@@ -1,0 +1,35 @@
+{
+  "productName": "SE Opportunities",
+  "headline": "Open opportunities",
+  "subhead": "Deals your account executives created. Set SE work status here — v1 keeps status in this app, not in Salesforce.",
+  "viewerFallback": "Signed-in SE",
+  "simulatedViewerNote": "Local preview uses a simulated viewer. The published team app uses Cursor sign-in.",
+  "sampleDataLabel": "Sample data",
+  "sampleDataBanner": "Salesforce is not connected yet. This list is labeled sample data so the team can try the dashboard. Add the Connected App secrets, then republish.",
+  "salesforceErrorBanner": "Could not load opportunities from Salesforce. Status changes are still saved here. Check the Connected App secrets and republish.",
+  "allAeModeLabel": "All AEs",
+  "allAeBanner": "AE–SE mapping is not configured, so every open opportunity is shown grouped by AE. Add mappings in data/config.json when you know which SEs cover which AEs.",
+  "unmappedViewerBanner": "Your sign-in email is not in the AE–SE mapping, so no opportunities are listed. Ask an admin to add you in data/config.json.",
+  "emptyTitle": "No open opportunities",
+  "emptyBody": "When Salesforce returns open deals, they appear here grouped by account executive.",
+  "filterLabel": "Filter by AE",
+  "filterAll": "All AEs",
+  "countOne": "1 open deal",
+  "countMany": "{n} open deals",
+  "columns": {
+    "name": "Opportunity",
+    "ae": "AE",
+    "stage": "Stage",
+    "amount": "Amount",
+    "closeDate": "Close date",
+    "seStatus": "SE status"
+  },
+  "statusLabels": {
+    "not_started": "Not started",
+    "in_progress": "In progress",
+    "done": "Done"
+  },
+  "statusHint": "SE status is stored in this app’s database. It is not written back to Salesforce.",
+  "aeSeMapping": [],
+  "_howToEdit": "Edit headlines and labels in this file. When you know which SEs cover which AEs, add aeSeMapping objects: { \"aeOwnerId\": \"005… Salesforce User Id\", \"aeName\": \"Jordan Hale\", \"seEmails\": [\"se@company.com\"] }. Match seEmails to Cursor sign-in emails. Until that array has entries, the dashboard shows all open opportunities grouped by AE."
+}

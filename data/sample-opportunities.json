@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sample-opp-northwind-renewal",
+    "name": "Northwind Analytics — platform renewal",
+    "aeId": "sample-ae-jordan",
+    "aeName": "Jordan Hale",
+    "stage": "Proposal / Price Quote",
+    "amount": 240000,
+    "closeDate": "2026-12-18"
+  },
+  {
+    "id": "sample-opp-northwind-observability",
+    "name": "Northwind Analytics — observability add-on",
+    "aeId": "sample-ae-jordan",
+    "aeName": "Jordan Hale",
+    "stage": "Needs Analysis",
+    "amount": 85000,
+    "closeDate": "2027-01-30"
+  },
+  {
+    "id": "sample-opp-pinnacle-core",
+    "name": "Pinnacle Health — core network refresh",
+    "aeId": "sample-ae-riley",
+    "aeName": "Riley Okonkwo",
+    "stage": "Negotiation / Review",
+    "amount": 615000,
+    "closeDate": "2026-11-28"
+  },
+  {
+    "id": "sample-opp-pinnacle-secure",
+    "name": "Pinnacle Health — secure access",
+    "aeId": "sample-ae-riley",
+    "aeName": "Riley Okonkwo",
+    "stage": "Qualification",
+    "amount": 142000,
+    "closeDate": "2027-02-12"
+  },
+  {
+    "id": "sample-opp-harbor-sdwan",
+    "name": "Harbor Freight Co — SD-WAN expansion",
+    "aeId": "sample-ae-morgan",
+    "aeName": "Morgan Ellis",
+    "stage": "Id. Decision Makers",
+    "amount": 310000,
+    "closeDate": "2026-12-04"
+  },
+  {
+    "id": "sample-opp-harbor-wifi",
+    "name": "Harbor Freight Co — warehouse Wi-Fi",
+    "aeId": "sample-ae-morgan",
+    "aeName": "Morgan Ellis",
+    "stage": "Prospecting",
+    "amount": 54000,
+    "closeDate": "2027-03-15"
+  },
+  {
+    "id": "sample-opp-lumen-collab",
+    "name": "Lumen & Bird — collaboration suite",
+    "aeId": "sample-ae-jordan",
+    "aeName": "Jordan Hale",
+    "stage": "Perception Analysis",
+    "amount": null,
+    "closeDate": "2027-01-09"
+  },
+  {
+    "id": "sample-opp-cedar-dc",
+    "name": "Cedar Ridge Credit Union — DC interconnect",
+    "aeId": "sample-ae-riley",
+    "aeName": "Riley Okonkwo",
+    "stage": "Proposal / Price Quote",
+    "amount": 178500,
+    "closeDate": "2026-12-22"
+  }
+]
